@@ -14,25 +14,22 @@ Each student should fork this repo, deploys their own copy, and submits their St
 
 ## Run locally
 
-```bash
 pip install -r requirements.txt
 streamlit run Home.py
-```
 
 ## Deploy to Streamlit Cloud (free — get a shareable link)
 
 1. Fork or push this repo to your GitHub account
 2. Go to https://share.streamlit.io
-3. Click **New app**
-4. Select your repo, branch = `main`, main file = `Home.py`
-5. Click **Deploy** — you get a public link like:
-   `https://your-app-name.streamlit.app`
+3. Click New app
+4. Select your repo, branch = main, main file = Home.py
+5. Click Deploy — you get a public link like:
+   https://your-app-name.streamlit.app
 
 
 
 ## File structure
 
-```
 Home.py                          ← landing page
 pages/
   1_Unconstrained_Minimization.py
@@ -41,4 +38,3 @@ pages/
   4_Simulated_Annealing.py
 requirements.txt
 .streamlit/config.toml           ← dark theme
-```
